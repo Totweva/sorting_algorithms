@@ -14,15 +14,15 @@ void bubble_sort(int *array, size_t size)
 	bool bubbly = false;
 	int swap;
 
-	if(array == NULL || size < 2)
+	if (array == NULL || size < 2)
 		return;
 
 	while (bubbly == false)
 	{
 		bubbly = true;
-		for(i = 0; i < n - 1; i++)
+		for (i = 0; i < n - 1; i++)
 		{
-			if(array[i] > array[i + 1])
+			if (array[i] > array[i + 1])
 			{
 				swap = array[i];
 				array[i] = array[i + 1];
